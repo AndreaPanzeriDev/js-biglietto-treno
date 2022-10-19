@@ -8,7 +8,11 @@
 .container{
     width: 100vw;
     height: 100vh;
+}
+
+.flex{
     display: flex;
+    justify-content: space-around;
 }
 
 .card{
@@ -18,14 +22,12 @@
     border-radius: 5px;
     height: 5%;
     padding: 10px;
-    align-self: center;
     height: auto;
-    display: flex;
-    justify-content: space-around;
+    margin-top: 5rem;
 }
 
 .division{
-    width: calc(100% / 3 -  15px);
+    width: calc(100% / 3 -  50px);
 }
 
 

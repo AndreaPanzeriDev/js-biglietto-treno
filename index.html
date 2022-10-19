@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,30 @@
     <title>BusTicket</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <section class="container">
         <!--div inserisci biglietto-->
         <form class="card">
-            <div class="division allineamento">
-                <p>Inserire il numero di km che si vuole percorrere</p>
-                <input type="number" id="kmdafare">
+            <div class="flex">
+                <div class="division allineamento">
+                    <p>Inserire il numero di km che si vuole percorrere</p>
+                    <input type="number" id="kmdafare">
+                </div>
+                <div class="division allineamento">
+                    <p>Inserire la propria età</p>
+                    <input type="number" id="clientage">
+                </div>
+                <button class="division" onclick="PriceCalc()">Calcola Prezzo</button>
             </div>
-            <div class="division allineamento">
-                <p>Inserire la propria età</p>
-                <input type="number" id="clientage">
-            </div>
-            <button class="division" onclick="PriceCalc()">Calcola Prezzo</button>
-            
+            <h4 id="prezzo">
+                
+            </h4>
         </form>
+        
     </section>
     <script type="text/javascript" src="assets/scripts/main.js"></script>
 </body>
+
 </html>
