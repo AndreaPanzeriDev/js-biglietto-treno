@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.card{
+    background-color: lightblue;
+    width: 65%;
+    margin-left: 7%;
+    border-radius: 5px;
+    height: 5%;
+    padding: 10px;
+    align-self: center;
+    height: auto;
+    display: flex;
+}
