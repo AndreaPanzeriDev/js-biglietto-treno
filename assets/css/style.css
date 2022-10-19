@@ -5,11 +5,6 @@
 }
 
 
-body{
-    
-}
-
-
 .container{
     width: 100vw;
     height: 100vh;
@@ -18,7 +13,7 @@ body{
 
 .card{
     background-color: lightblue;
-    width: 65%;
+    width: 75%;
     margin-left: 7%;
     border-radius: 5px;
     height: 5%;
@@ -26,4 +21,17 @@ body{
     align-self: center;
     height: auto;
     display: flex;
+    justify-content: space-around;
 }
+
+.division{
+    width: calc(100% / 3 -  15px);
+}
+
+
+.allineamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
