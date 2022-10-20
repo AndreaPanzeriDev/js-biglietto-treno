@@ -13,7 +13,7 @@
 
     <section class="container">
         <!--div inserisci biglietto-->
-        <div class="card">
+        <form class="card">
             <div class="flex">
                 <div class="division allineamento">
                     <p>Inserire il numero di km che si vuole percorrere</p>
@@ -23,12 +23,12 @@
                     <p>Inserire la propria età</p>
                     <input type="number" id="clientage">
                 </div>
-                <button class="division" onclick="PriceCalc()">Calcola Prezzo</button>
+                <button class="division" onclick="PriceCalc(); return false">Calcola Prezzo</button>
             </div>
             <h1 id="prezzo">
 
             </h1>
-        </div>
+        </form>
         
     </section>
     <script type="text/javascript" src="assets/scripts/main.js"></script>
